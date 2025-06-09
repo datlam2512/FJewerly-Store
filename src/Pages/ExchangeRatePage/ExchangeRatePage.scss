@@ -1,0 +1,38 @@
+.table-container {
+    background-color: white;
+}
+
+.gold-price-table th,
+.gold-price-table td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.full-screen-button {
+    background-color: var(--btn-background);
+    color: var(--btn-text-color);
+
+    &:hover {
+        background-color: var(--btn-hover-background);
+    }
+
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.adjust-multiplier-button {
+    margin-left: 10px;
+}
+
+.full-screen-button {
+    margin-right: 10px;
+    background-color: var(--btn-background);
+    color: var(--btn-text-color);
+
+    &:hover {
+        background-color: var(--btn-hover-background);
+    }
+}

@@ -1,0 +1,90 @@
+.user-manage-page {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  bottom: 0;
+  left: 200px;
+}
+.user-manage-page .statistics-section {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 20px;
+  width: 80%;
+  margin: auto;
+}
+.user-manage-page .statistics-section .ant-statistic-title {
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.user-manage-page .statistics-section .active-title {
+  color: green;
+}
+.user-manage-page .statistics-section .inactive-title {
+  color: red;
+}
+.user-manage-page .statistics-section .ant-statistic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.user-manage-page .statistics-section .statistics-box {
+  text-align: center;
+}
+.user-manage-page .search-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+.user-manage-page .search-section .search-input {
+  border: none;
+  width: 60%;
+  height: 40px;
+  font-size: 16px;
+}
+.user-manage-page .search-section .search-button, .user-manage-page .search-section .add-user-btn {
+  width: 15%;
+  background-color: blue;
+  border: none;
+  justify-content: space-between;
+}
+.user-manage-page .search-section .search-button:hover, .user-manage-page .search-section .add-user-btn:hover {
+  background-color: #0000cc;
+}
+.user-manage-page .ant-pagination {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: auto;
+}
+.user-manage-page .ant-table {
+  margin-top: 1%;
+  width: 100%;
+}
+.user-manage-page .ant-table th {
+  background-color: #f0f2f5;
+}
+.user-manage-page .ant-table td {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.user-manage-page .ant-table .ant-space svg {
+  cursor: pointer;
+}
+.user-manage-page .ant-table .ant-space svg:hover {
+  color: #1890ff;
+}
+
+.table-column-word-wrap {
+  word-wrap: break-word;
+}/*# sourceMappingURL=UserManagePage.css.map */

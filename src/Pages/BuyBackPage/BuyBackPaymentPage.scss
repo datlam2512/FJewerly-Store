@@ -1,0 +1,9 @@
+.buyback-payment-page{
+    .confirm-btn{
+        background-color: var(--btn-background);
+          color: var(--btn-text-color);
+          &:hover {
+            background-color: var(--btn-hover-background);
+          }
+    }
+}

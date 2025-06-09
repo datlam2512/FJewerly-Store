@@ -1,0 +1,23 @@
+.print-receipt-page{
+    .print-receipt-btn{
+        background-color: var(--btn-background);
+        color: var(--btn-text-color);
+        &:hover {
+        background-color: var(--btn-hover-background);
+        }
+    }
+    .print-warranty-btn{
+        background-color: var(--btn-background);
+        color: var(--btn-text-color);
+        &:hover {
+        background-color: var(--btn-hover-background);
+        }
+    }
+    .print-return-btn{
+        background-color: var(--btn-background);
+        color: var(--btn-text-color);
+        &:hover {
+        background-color: var(--btn-hover-background);
+        }
+    }
+}

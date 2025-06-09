@@ -1,0 +1,11 @@
+{
+    "exchangeRate": 8.29,
+    "buyMultiplier": 1.02,
+    "sellMultiplier": 1.05,
+    "goldWeightRatio": {
+        "24k": 1,
+        "18k": 0.75,
+        "14k": 0.583,
+        "10k": 0.417
+    }
+}

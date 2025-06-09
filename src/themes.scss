@@ -1,0 +1,45 @@
+:root {
+    --background-color: #f9f9f9;
+    --header-background: #fff;
+    --header-text-color: #333;
+    --search-bar-border: #ddd;
+    --search-btn-background: #007bff;
+    --search-btn-hover: #0056b3;
+    --btn-background: #28a745; 
+    --btn-hover-background: #218838; 
+    --btn-text-color: #fff; 
+    --card-background: #fff;
+    --card-text-color: #333;
+    --card-price-color: #999;
+    --cart-background: #fff;
+    --cart-text-color: #333;
+    --cart-item-price-color: #999;
+    --remove-item-btn-background: #dc3545;
+    --remove-item-btn-hover: #c82333;
+    --add-product-btn-background: #007bff;
+    --add-product-btn-hover: #0056b3;
+    --checkout-btn-background: #007bff;
+    --checkout-btn-hover: #0056b3;
+  }
+  
+  .dark-mode {
+    --background-color: #1a202c;
+    --header-background: #2d3748;
+    --header-text-color: #e2e8f0;
+    --search-bar-border: #4a5568;
+    --btn-background: #000; 
+    --btn-hover-background: #333; 
+    --btn-text-color: #fff; 
+    --card-background: #2d3748;
+    --card-text-color: #e2e8f0;
+    --card-price-color: #edf2f7;
+    --cart-background: #2d3748;
+    --cart-text-color: #e2e8f0;
+    --cart-item-price-color: #edf2f7;
+    --remove-item-btn-background: #e53e3e;
+    --remove-item-btn-hover: #c53030;
+    --add-product-btn-background: #4a5568;
+    --add-product-btn-hover: #2d3748;
+    --checkout-btn-background: #4a5568;
+    --checkout-btn-hover: #2d3748;
+  }

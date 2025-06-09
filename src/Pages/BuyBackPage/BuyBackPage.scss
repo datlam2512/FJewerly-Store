@@ -1,0 +1,26 @@
+.buy-back-page {
+    width: 100%;
+    overflow-x: hidden;  // Ensure no horizontal overflow
+  
+    .buy-back-container {
+      display: block;
+      width: 100%;
+  
+      .buy-back-content {
+        padding: 1rem;
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+        width: 100%;
+  
+        .buy-back-product-list {
+          padding: 0.75rem;
+          width: 100%;
+          text-align: center;
+          box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+          height: 40%;
+          background: #FFFFFF;
+        }
+      }
+    }
+  }
+  

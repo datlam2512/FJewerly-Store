@@ -1,0 +1,44 @@
+.header {
+  height: 79px;
+  background-color: #4CAF50; 
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &.bright-mode {
+    background-color: #4CAF50; 
+    color: #ffffff;
+  }
+
+  &.dark-mode {
+    background-color: #1a202c; 
+    color: #e2e8f0; 
+  }
+
+  .body {
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+
+    .mini-logo {
+      display: flex;
+      padding: 5px 15px;
+      border-radius: 30px;
+      background: #0b2136; /* Keep this color the same or adjust as needed */
+    }
+
+    .user {
+      display: flex;
+      align-items: center;
+
+      .action {
+        display: flex;
+        min-width: auto;
+        align-items: flex-start;
+      }
+    }
+  }
+}

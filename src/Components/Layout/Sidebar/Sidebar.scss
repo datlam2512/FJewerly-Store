@@ -1,0 +1,33 @@
+.sidebar {
+  font-weight: 600;
+  font-size: small;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  .open {
+    display: flex;
+    justify-content: end;
+    margin: 10% 5% 0;
+    width: 90%;
+    min-height: 24px;
+    cursor: pointer;
+
+    &:hover {
+      color: tomato;
+    }
+  }
+
+  .close {
+    margin: 25% 35% 0;
+    min-height: 24px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+
+    &:hover {
+      color: var(--primary-color-hover);
+    }
+  }
+}
+
+

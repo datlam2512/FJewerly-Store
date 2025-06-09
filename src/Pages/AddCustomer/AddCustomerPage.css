@@ -1,0 +1,41 @@
+.add-customer-page {
+  width: 100%;
+  position: relative;
+}
+.add-customer-page .go-back-btn {
+  position: relative;
+  top: 20px;
+  left: 30px;
+  background-color: initial;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent !important;
+  border: none !important;
+  color: black !important;
+}
+.add-customer-page .add-customer-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 50px;
+}
+.add-customer-page .add-customer-form-container .ant-form-item {
+  margin-bottom: 20px;
+}
+.add-customer-page .add-customer-form-container .ant-form-item .ant-input,
+.add-customer-page .add-customer-form-container .ant-form-item .ant-input-affix-wrapper,
+.add-customer-page .add-customer-form-container .ant-form-item .ant-input-group-wrapper {
+  font-size: 16px;
+  height: auto;
+  min-height: 40px;
+  padding: 10px;
+}
+.add-customer-page .add-customer-form-container .ant-btn-primary {
+  width: 100%;
+  height: 50px;
+}
+.add-customer-page .add-customer-title {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=AddCustomerPage.css.map */

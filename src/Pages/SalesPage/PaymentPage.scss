@@ -1,0 +1,26 @@
+.payment-page {
+  .go-back-btn {
+    background-color: var(--btn-background);
+    color: var(--btn-text-color);
+    border-radius: 4px;
+    padding: 5px 20px;
+    font-size: 16px;
+    &:hover {
+      background-color: var(--btn-hover-background);
+    }
+  }
+  .ck-btn {
+    background-color: var(--btn-background);
+    color: var(--btn-text-color);
+    &:hover {
+      background-color: var(--btn-hover-background);
+    }
+  }
+  .confirm-btn {
+    background-color: var(--btn-background);
+    color: var(--btn-text-color);
+    &:hover {
+      background-color: var(--btn-hover-background);
+    }
+  }
+}

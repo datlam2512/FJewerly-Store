@@ -1,0 +1,30 @@
+.header {
+  height: 79px;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .body {
+  margin-right: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.header .body .mini-logo {
+  display: flex;
+  padding: 5px 15px;
+  border-radius: 30px;
+  background: #0b2136;
+}
+.header .body .user {
+  display: flex;
+  align-items: center;
+}
+.header .body .user .action {
+  display: flex;
+  min-width: auto;
+  align-items: flex-start;
+}/*# sourceMappingURL=Header.css.map */
